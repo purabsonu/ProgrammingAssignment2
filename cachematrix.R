@@ -3,6 +3,9 @@
 
 ## Write a short comment describing this function
 
+##This part of the code tries to set up the inverse value for the matrix
+##This part of the code makes the vector required for the next function
+
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y){
@@ -20,6 +23,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## This code first takes the list output of the previous code and 
+## checks whether the inverse is cached or not
+## If not, the inverse is calculated and the list is updated
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
